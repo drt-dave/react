@@ -10,6 +10,6 @@ export const getGifs = async(category) => {
         title: img.title,
         url: img.images.original.url
     }));
-    console.log(gifs);
+    //console.log(gifs);
     return gifs;
 }
