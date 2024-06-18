@@ -1,0 +1,11 @@
+- Se realiza la instalación y configuración de Jest + React Testing Library https://gist.github.com/klerith/
+- Se edita entonces package.json con el script de test, se crean babel.config.cjs y jest.config.cjs ( debe ser .cjs ), así como jest.setup.js
+- Se crea en la raiz del proyecto test/hooks/useCounter.test.js y se edita src/hooks/useCounter.js ( se edita el current valu para pruebas )
+- Se crea test/hooks/useForm.js
+%% - Se crea 03-examples/MultipleCustomHooks.test.jsx // voy aquí
+- Se crea 08-useReducer/todoReducer.test.js
+- Se crea 08-useReducer/TodoItem.test.jsx y se crea aria-label en el span de TodoItem.jsx
+- Se crea 08-useReducer/TodoApp.test.jsx
+- Se crea 09-useContext/HomePage.test.jsx y se edita HomaPage.jsx (aria-label)
+- Se crea 09-useContext/LoginPage.test.jsx y se edita LoginPage.jsx (aria-label)
+- Se crea 09-useContext/MainApp.test.jsx
