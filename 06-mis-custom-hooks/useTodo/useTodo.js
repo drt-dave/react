@@ -1,7 +1,7 @@
 // Esta documentación describe el ook personalizado useTodo, incluyendo los parámetros que recibe y cómo se utiliza, así como las funciones y efector que manejan el estado de la lista de tareas y su persistencia en el localStorage.
 
 import { useEffect, useReducer } from "react"; // Importa los hooks useEffect y useReducer desde React
-import { TodoReducer} from "../08-useReducer" //Importa el reducer TodoReducer desde el archivo "../08-useReducer";
+import { TodoReducer} from "./TodoReducer" //Importa el reducer TodoReducer 
 
 /**
  * Hook personalizado useTodo para gestional el estado de la lista de tareas.
