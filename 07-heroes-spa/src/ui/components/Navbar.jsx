@@ -6,9 +6,8 @@ import {AuthContext} from '../../auth/context';
 export const Navbar = () => {
 
   const { user, logout} = useContext(AuthContext)
+
   const navigate = useNavigate();
-
-
 
   const onLogout = () => { 
 	console.log('onLogout');
@@ -21,7 +20,6 @@ export const Navbar = () => {
 
   return (
 	<nav className="navbar navbar-expand-sm navbar-dark bg-dark p-2">
-
 	  <Link 
 		className="navbar-brand" 
 		to="/"
