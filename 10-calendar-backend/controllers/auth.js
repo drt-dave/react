@@ -24,7 +24,7 @@ const crearUsuario =  async( req, res = response ) => {
 
 	await usuario.save();
 
-	//Generar JWT
+	//GenerarJWT
 	const token = await generarJWT(usuario.id, usuario.name);
 	res.status(201).json({
 	  ok: true,
@@ -35,7 +35,7 @@ const crearUsuario =  async( req, res = response ) => {
 
   } catch (error) {
 	console.log(error)
-	res.status(500) .json({
+	res.status(500).json({
 	  ok: false,
 	  msg: 'Comuniquese con el administrador'
 	});
